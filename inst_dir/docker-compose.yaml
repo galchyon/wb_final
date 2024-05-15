@@ -1,0 +1,7 @@
+version: '3.11'
+services:
+
+  spam_classifier:
+    build: .
+    ports:
+      - 80:80
